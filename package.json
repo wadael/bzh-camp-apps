@@ -1,0 +1,17 @@
+{
+  "name": "breizhcamp-subscribe",
+  "version": "1.0.0",
+  "description": "Deploy this app on Clever Cloud to win a Breizhcamp ticket !",
+  "main": "index.js",
+  "repository": "http://breizhcamp.subscrive",
+  "author": "Clever Cloud",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "node-rest-client": "^3.0.7"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
